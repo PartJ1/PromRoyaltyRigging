@@ -4,6 +4,11 @@ import pyperclip
 import keyboard
 
 
+# you will have to pip install a couple of these
+# in your cmd type 
+# pip install pyautogui
+# pip install pyperclip
+
 width, height = pyautogui.size()
 time.sleep(10)
 is_true = False
